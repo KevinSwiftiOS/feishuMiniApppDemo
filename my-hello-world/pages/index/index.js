@@ -1,8 +1,12 @@
+const app = getApp();
 Page({
   data: {
-
+    message: 'hello world',
+    isShowMessage: false
   },
-  onLoad: function () {
-    console.log('Welcome to Mini Code')
+  showMessage() {
+    this.setData({
+      isShowMessage: true
+    })
   },
 })

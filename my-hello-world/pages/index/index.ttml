@@ -1,1 +1,8 @@
-<view class="intro">Welcome </view>
+<view class="container">
+<view class="userinfo">
+<button bindtap="showMessage">点击按钮显示Message</button>
+<view class="textinfo" tt:if="{{isShowMessage}}">
+<text class="text">{{message}}</text>
+</view>
+</view>
+</view>
