@@ -1,10 +1,7 @@
 <view class="container">
 <view class="userinfo">
+123
 <button bindtap="showMessage">点击按钮显示Message</button>
-<view class="textinfo" tt:if="{{isShowMessage}}">
-<text class="text">{{message}}</text>
-
-<view tt:for="{{res}}">{{item}}</view>
 </view>
 </view>
 </view>
